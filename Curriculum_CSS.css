@@ -1,0 +1,174 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container_1 {
+    max-width: 860px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.grid_1, .grid_2 {
+    display: inline;
+    float: left;
+    position: relative;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.container_1 .grid_1 {
+    width: 45.0%;
+    margin-right: 30px;
+}
+
+.container_1 .grid_2 {
+    width: 98.0%;
+}
+
+/* Header */
+
+header {
+    background-color: black;
+    border-bottom: 3px solid rgb(149, 149, 149);
+    padding: 19px 0;
+    overflow: hidden;
+}
+
+header figure {
+    float: left;
+}
+
+header figure img {
+    object-fit: cover;
+    height: 175px;
+    width: 175px;
+    position: relative;
+    border-radius: 50%;
+    border: solid rgb(149, 149, 149);
+}
+
+header hgroup {
+    float: right;
+    text-align: center;
+    margin-top: 50px;
+}
+
+header hgroup h1 {
+    color: white;
+    font-family: "Space mono", monospace;
+}
+
+header hgroup h2 {
+    color: white;
+    font-family: "Space mono", monospace;
+}
+
+header hgroup h5 {
+    color: white;
+    font-family: "Space mono", monospace;
+    font-size: small;
+}
+
+/* main */
+
+p {
+    color: white;
+    font-family: "Space mono", monospace;
+}
+
+section[role=main] {
+    padding: 21px;
+    overflow: hidden;
+}
+
+section[role=main] > div {
+    margin-top: 63px;
+}
+
+section[role=main] h3 {
+    border-bottom: 1px solid #BDBDBD;
+    padding: 0px 0px 20px 0px;
+    margin-top: 0px;
+    position: relative;
+    color: white;
+    font-family: "Lucida handwriting", cursive;
+}
+
+section[role=main] h4 {
+    margin-bottom: 0px;
+}
+
+section[role=main] h4 strong {
+    color: white;
+    font-family: "Spacemono", monospace;
+}
+
+.past_jobs li, .formation li {
+    margin-bottom: 35px;
+    list-style: none;
+}
+
+.past_jobs ul, .studies ul {
+    padding-inline-start: 0px;
+}
+
+/* knowledge */
+
+.knowledge .values {
+    padding: 0px;
+}
+
+.knowledge .values li {
+    margin-bottom: 21px;
+    position: relative;
+    list-style: none;
+    color: white;
+    font-family: "Spacemono", monospace;
+}
+
+.knowledge .values li::after {
+    background: #e1e1e1;
+    bottom: -4px;
+    content: ' ';
+    display: block;
+    height: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.knowledge .values li span {
+    background: #33a4c9;
+    bottom: -4px;
+    content: ' ';
+    display: block;
+    height: 5px;
+    left: 0;
+    position: absolute;
+    width: inherit;
+    z-index: 1;
+}
+
+.grid_1 ul {
+    padding: 15px;
+}
+
+.grid_1 ul li {
+    color: white;
+    font-family: "Spacemono", monospace;
+}
+
+.grid_2 .company {
+    background-position: 0 -2px;
+    color: rgb(123, 123, 123);
+    font-family: "Spacemono", monospace;
+}
+
+.grid_2 .dates {
+    background-position: 0 -2px;
+    color: rgb(123, 123, 123);
+    font-family: "Spacemono", monospace;
+    font-size: small;
+}
+
+/* past jobs */
